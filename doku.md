@@ -1,4 +1,4 @@
-# Dokumentation Bildergalerie Modul 152
+# Dokumentation Bildergalerie Modul 152 (https://matejasbildergalerie.netlify.app/)
 ## Bildformate
 Es gibt verschiedene Bildformate, die alle ihre Vor- und Nachteile haben. Alle sind je nach Situation angebracht und doch kann man sagen, das die einen besser als die anderen sind. Ich habe in meiner Galerie nur jpg genutzt, weil ich dieses Format für so ein Projekt am passendsten fand. Mein Video ist im .mp4 Format.
 
@@ -56,3 +56,15 @@ Ich hab es geschafft, das man die Galerie sowohl manuell als auch automatisch ab
 
 ## Alternativen Text anzeigen
 Der alternative Text wird beim Hovern über dem Bild angezeigt. Kleine Box erscheint beim Cursor.
+
+## **Lernjournal**
+### Planung
+Ich fing mit dem Planen der Seite an, was mir keine grossen Probleme bereitete. Zuerst schaute ich mir verschiedene Möglichkeiten an, um die Slide-Funktion einzubauen. Es gab viel Auswahl. Also von purem HTML mit CSS, zu Javascript mit HTML und CSS und dann noch React-Komponenten, die eigentlich alles für einen erledigen.  Natürlich wollte ich den harten weg gehen und alles alleine machen, weshalb ich in diesem Projekt auch pur JS, HTML und CSS habe. Nur ein kleiner Spass. Wie jeder andere hoffte ich auf einen coolen React-Komponenten, denn ich dann nutzen kann. Ich fand auch einige, der beste davon war der Lightgallery Komponent. 
+
+### Umsetzung
+Doch wie es der Zufall will, hatte ich schlimme Probleme mit React. Ich konnte zuerst garkein Projekt erstellen. Dann konnte ich die Komponenten nicht installieren. Ich wechselte auf Vite, wo es zünachst funktionierte. Es ging alles gut, konnte die Komponenten hinzufügen und Bilder hineintun. Doch es wollte nichts darstellen auf der Webpage. Der return aus meinem Javascript File wurde nicht erkannt und konnte so auch nicht dargestellt werden. Ich war am verzweifeln. Als ich dann aus Frust alle meine Projektversuche gelöscht hatte, entschied ich mich dazu normal mit JS, HTML und CSS zu arbeiten. Das ging dann gut ohne grössere Probleme. Ich konnte gut arbeiten, Bilder einfügen, das Video hineinfügen und die Funktion vom swipen einbauen. Mit CSS konnte ich es auch noch sehr gut gestalten. Ich war also sehr zufrieden. Doch dann kam es. Ich fand heraus das ich das automatische abspielen hineinbauen muss. Und von der Logik her, ist es nicht so ein Problem. Ich musste mir zwar Online ein paar Referenzen heraussuchen, konnte es aber grösstenteils hinbekommen. Doch dann bemerkte ich, dass das automatische Abspielen nicht so kompatibel mit dem manuellen Abspielen ist. Also sobald ich auf die Pfeile klicke, fängt es an Probleme zu machen und überspringt Slides, man kann nicht mer manuell zurückgehen, die Slideshow läuft viel zu schnell oder viel zu langsam. Es ist sehr wahrscheinlich ein Problem mit dem slideIndex. Also der Variable die bestimmt welcher Slide gerade angezeigt wird. Doch ich konnte nicht herausfinden was genau das Problem ist. 
+
+### Endergebnis
+Deshalb ist es leider immernoch so in meiner Galerie. Das Manuelle funktioniert super, solange man die Funkton fürs automatische Abspielen, herauskommentiert und das automatische Abspielen funktioniert super, solange man nicht auf die Pfeile klickt. Ich hab die automatische Funktion mal drin gelassen. Es ist auf der Webseite also auch so. Ich wünschte ich hätte noch ein wenig Zeit um die Galerie zu verbessern. Aber naja, alles in allem bin ich relativ zufrieden mit dem Endergebnis. Es hätte aber definitiv besser sein können. Hätte ich nur von Anfang an mit Js gearbeitet, antstatt so lange an React und Vite zu verzweifeln. Bin selber schuld.
+
+Hoffe die Galerie gefällt ihnen trotzdem.
